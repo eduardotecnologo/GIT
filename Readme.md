@@ -34,3 +34,4 @@
 - » touch file.css **Cria um novo arquivo file.css**
 - » git status **Irá mostrar os 2 arquivos criados para serem adicionados**
 - » git add . **Adiciona os 2 arquivos ou mais, prontos para serem commitados**
+- » **Sacada** git commit -a -m "descrição" **O -a substitui a função do **add** com esse comando vc adiciona e commita ao mesmo tempo**
