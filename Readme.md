@@ -33,5 +33,37 @@
 - » git log **Exibe toda a descrição do commit**
 - » touch file.css **Cria um novo arquivo file.css**
 - » git status **Irá mostrar os 2 arquivos criados para serem adicionados**
-- » git add . **Adiciona os 2 arquivos ou mais, prontos para serem commitados**
+- » ▶ git add . **Adiciona os 2 arquivos ou mais, prontos para serem commitados**
 - » **Sacada** git commit -a -m "descrição" **O -a substitui a função do **add** com esse comando vc adiciona e commita ao mesmo tempo**
+
+## \* Verificando Logs
+
+- **Comandos**
+- » ▶ git log **Mostra os log do commit**
+- » ▶
+  » commit 7dc02b788xxxxxxxxxxxxxxxxxxa5fde0c (HEAD -> master, origin/master, origin/HEAD)
+ - » Author: eduardotecnologo <eduardotecnologo@hotmail.com>
+ - » Date:   Wed Mar 4 11:19:52 2020 -0300
+ - »     Realizando os primeiro commit.
+
+- » ▶ git log -p **Faz uma comparação, mostrando tudo o que foi alterado**
+- » ▶ git log **Pasando o -2 vc limita em apenas os 2 ultimos commits**
+- » ▶ git log --stat **Este mostra os logs mais as estatisticas de cada linha alterada**
+ - » Readme.md | 17 +++++++++++++++--
+ - » 1 file changed, 15 insertions(+), 2 deletions(-)
+
+- » ▶ git log --pretty=oneline **Mostra apenas informações do que foi feito em apenas uma linha**
+- » ▶ git log --pretty=format: "%h - %an, %arr : %s"**Mostra as informações formatadas de forma resumidas**
+  Author: eduardotecnologo <eduardotecnologo@hotmail.com>
+Date:   Wed Mar 4 10:51:39 2020 -0300
+    Formatando texto.
+...skipping...
+xxxxxxx - eduardotecnologo, 9 days agor : Realizando os primeiro commit.
+xxxxxxx - eduardotecnologo, 9 days agor : Realizando os primeiro commit
+xxxxxxx - eduardotecnologo, 9 days agor : Os 3 estágios
+xxxxxxx - eduardotecnologo, 9 days agor : Formatando texto..
+xxxxxxx - eduardotecnologo, 9 days agor : Formatando texto.
+xxxxxxx - eduardotecnologo, 9 days agor : Formatando texto
+xxxxxxx - eduardotecnologo, 9 days agor : Init
+
+- » ▶ git log --since=2.days**Mostra as informações de commits realizados em d-2**
