@@ -81,3 +81,9 @@
 - » ▶ git reset HEAD~1 **Volta 1 commmit, com 2 volta 2 e assim qtos queizer**
 - » ▶ git reset HEAD~1 --soft **Volta um commit mas matem o arquivo que foi criado para ser commitado com as alterações novamente**
 - » ▶ git reset HEAD~1 --hard **Volta um commit e remove as alterações do arquivo (CUIDADO!!!)**
+
+## \* Trabalhando com Branch
+ - » ▶ edudeveloper@Eduardo-MacBook-Pro  ~/Documents/Git/GIT   master
+ - » ▶ git checkout -b formcadastro **Criando uma nova branch**
+ - » ▶ edudeveloper@Eduardo-MacBook-Pro  ~/Documents/Git/GIT   formcadastro
+- » ▶ git checkout master **Volta pra branch master**
