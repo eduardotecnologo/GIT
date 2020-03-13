@@ -6,7 +6,7 @@
 
 - **Comando**
 
-- » git config --global user.name "Eduardo Alexandre"
+- » edudeveloper@Eduardo-MacBook-Pro  git config --global user.name "Eduardo Alexandre"
 - » git config --global user.email "eduardotecnologo@hotmail.com"
 - » git config --global color.ui true **//Colore as interações executadas**
 
@@ -73,4 +73,11 @@
 
 ## \* Fluxo de commits
 - » ▶ git reset HEAD arquivo.txt **Volta ao estágio anterior ao ultimo estágio antes de ser commitado**
- - » Untracked files: 
+ - » Untracked files:
+- » ▶ git checkout xxxxxxxxxxxxxxxxxxxxxxxxxxxx **Cada commit tem um hash único, para voltar uma versão use o sguinte commit**
+ - » detached from xxxxxxxx:
+- » ▶ git brnach
+- » ▶ ls **Você verá que seus commits voltaram a um versão anterior**
+- » ▶ git reset HEAD~1 **Volta 1 commmit, com 2 volta 2 e assim qtos queizer**
+- » ▶ git reset HEAD~1 --soft **Volta um commit mas matem o arquivo que foi criado para ser commitado com as alterações novamente**
+- » ▶ git reset HEAD~1 --hard **Volta um commit e remove as alterações do arquivo (CUIDADO!!!)**
