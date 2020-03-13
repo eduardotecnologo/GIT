@@ -1,4 +1,4 @@
-# Estudo sobre comando do Git e Github
+# Estudo sobre comandos do Git e Github
 
 ## \* PALESTRA - conceitos SOBRE GIT E GITHUB
 
@@ -70,3 +70,7 @@
 
 ## \* Setando o .gitignore
 - » touch .gitignore **Cria um arquivo .gitignore, neste arquivo vc adiciona todos os arquivos e pastas que vc deseja que o git ignora e não suba para o githube**
+
+## \* Fluxo de commits
+- » ▶ git reset HEAD arquivo.txt **Volta ao estágio anterior ao ultimo estágio antes de ser commitado**
+ - » Untracked files: 
