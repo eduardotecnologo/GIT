@@ -54,16 +54,19 @@
 
 - » ▶ git log --pretty=oneline **Mostra apenas informações do que foi feito em apenas uma linha**
 - » ▶ git log --pretty=format: "%h - %an, %arr : %s"**Mostra as informações formatadas de forma resumidas**
-  Author: eduardotecnologo <eduardotecnologo@hotmail.com>
-Date:   Wed Mar 4 10:51:39 2020 -0300
-    Formatando texto.
-...skipping...
-xxxxxxx - eduardotecnologo, 9 days agor : Realizando os primeiro commit.
-xxxxxxx - eduardotecnologo, 9 days agor : Realizando os primeiro commit
-xxxxxxx - eduardotecnologo, 9 days agor : Os 3 estágios
-xxxxxxx - eduardotecnologo, 9 days agor : Formatando texto..
-xxxxxxx - eduardotecnologo, 9 days agor : Formatando texto.
-xxxxxxx - eduardotecnologo, 9 days agor : Formatando texto
-xxxxxxx - eduardotecnologo, 9 days agor : Init
+  - » Author: eduardotecnologo <eduardotecnologo@hotmail.com>
+- » Date:   Wed Mar 4 10:51:39 2020 -0300
+    - » Formatando texto.
+- » ..skipping...
+- » xxxxxxx - eduardotecnologo, 9 days agor : Realizando os primeiro commit.
+- » xxxxxxx - eduardotecnologo, 9 days agor : Realizando os primeiro commit
+- » xxxxxxx - eduardotecnologo, 9 days agor : Os 3 estágios
+- » xxxxxxx - eduardotecnologo, 9 days agor : Formatando texto..
+- » xxxxxxx - eduardotecnologo, 9 days agor : Formatando texto.
+- » xxxxxxx - eduardotecnologo, 9 days agor : Formatando texto
+- » xxxxxxx - eduardotecnologo, 9 days agor : Init
 
 - » ▶ git log --since=2.days**Mostra as informações de commits realizados em d-2**
+
+## \* Setando o .gitignore
+- » touch .gitignore **Cria um arquivo .gitignore, neste arquivo vc adiciona todos os arquivos e pastas que vc deseja que o git ignora e não suba para o githube**
